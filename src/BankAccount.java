@@ -1,7 +1,7 @@
 public class BankAccount {
-    String accountNumber;
-    String username;
-    double balance;
+    private String accountNumber;
+    private String username;
+    private double balance;
 
     public BankAccount(String accountNumber, String username, double balance){
         this.accountNumber=accountNumber;
@@ -9,18 +9,24 @@ public class BankAccount {
         this.balance=balance;
     }
 
+    public String getUsername(){return username;}
+    public double getBalance(){return balance;}
+
     public void deposit(double amount){
         this.balance +=amount;
     }
 
-    public void withdraw(double amount){
-        this.balance -= amount;
+    public boolean withdraw(double amount){
+        if (this.balance>=amount){
+            this.balance -= amount;
+            return true;
+        }
+        return false;
     }
 
-    public void display(){
-        System.out.println("Account number: " + accountNumber);
-        System.out.println("Username: " + username);
-        System.out.println("Balance: " + balance);
+    @Override
+    public String toString(){
+        return username + " (Account: " + accountNumber + ") - Balance: " + balance;
     }
 }
 
