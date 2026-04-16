@@ -3,26 +3,26 @@
 **Group:** IT-2504
 ## Tasks Implementation
 ### Task 1:  Bank Account Storage Using LinkedList
-* **Description:** Created a code that stores, displays and sorts bank accounts by name.
+* **Description:** implemented a dynamic LinkedList to store user accounts
 * **Screen:**![Task1.png](screens/Task1.png)
 ### Task 2:  Deposit & Withdraw Operations
-* **Description:** Added two functions: deposit and withdraw in BankAccount class. Also added "case 5" for these functions in Main class.
+* **Description:** I developed efficient search and update logic within the list to handle core banking transactions
 * **Screen:** ![Task2.png](screens/Task2.png)
 ### Task 3: Transaction History (Stack – LIFO)
-* **Description:** Added new "case 6" to check the history of actions. Also modifies "case 1" and "case 5" to connect it with method "transactionHistory".
+* **Description:** utilized a Stack to record transaction history, enabling the "Undo" feature by following the LIFO principle.
 * **Screen:** ![Task3.png](screens/Task3.png)
 ### Task 4: Bill Payment Queue (Queue – FIFO)
-* **Description:** Added new cases 7 and 8 to add bill payments and for processing them.
-* **Screen:** ![Task4.png](screens/Task4.png)
+* **Description:** Applied the FIFO principle using a Queue to ensure that bill payments are processed in the order they were received.
+* **Screen:** ![Task4-1.png](screens/Task4-1.png) ![Task4-2.png](screens/Task4-2.png)
 ### Task 5: Account Opening Queue (Admin Simulation)
-* **Description:** Added case 9 for user application and case 10 for admin simulation.
-* **Screen:** ![Task5-1.png](screens/Task5-1.png) ![Task5-2.png](screens/Task5-2.png)
+* **Description:** I used a Queue to hold pending requests and transferred them to a dynamic LinkedList upon admin approval.
+* **Screen:** ![Task5.png](screens/Task5.png)
 ### Task 6:  Physical Data Structures
-* **Description:** used array to create fixed data with a fixed number of cells.
+* **Description:** implemented a physical array with a fixed size to demonstrate how static memory structures store VIP accounts.
 * **Screen:** ![Task6.png](screens/Task6.png)
-### Task 7: Mini Banking Menu
-* **Description:** Divided cases to three menu types.
-* **Screen:** ![part3.png](screens/part3.png)
+### Part 3: Mini Banking Menu
+* **Description:** integrated all data structures into a unified system with separate interfaces for Bank, ATM, and Admin roles.
+* **Screen:** ![Part3.png](screens/Part3.png)
 
 
 ## Work Process Summary
