@@ -22,7 +22,7 @@
 * **Screen:** ![Task6.png](screens/Task6.png)
 ### Part 3: Mini Banking Menu
 * **Description:** integrated all data structures into a unified system with separate interfaces for Bank, ATM, and Admin roles.
-* **Screen:** ![Part3.png](screens/Part3.png)
+* **Screen:** ![part3.png](screens/part3.png)
 
 
 ## Work Process Summary
